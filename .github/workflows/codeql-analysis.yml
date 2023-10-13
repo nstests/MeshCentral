@@ -1,15 +1,12 @@
 name: "Code scanning - action"
 
 on:
-  push:
-  pull_request:
-  schedule:
-    - cron: '0 20 * * 4'
+  workflow_dispatch:
 
 jobs:
   CodeQL-Build:
 
-    runs-on: ubuntu-latest
+    runs-on: dimerun-k3-ubuntu2204
 
     steps:
     - name: Checkout repository
