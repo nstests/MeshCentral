@@ -6,7 +6,7 @@ on:
 jobs:
   CodeQL-Build:
 
-    runs-on: dimerun-k3-ubuntu2204
+    runs-on: dimerun-dev-runner-scale-set
 
     steps:
     - name: Checkout repository
