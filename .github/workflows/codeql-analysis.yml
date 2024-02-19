@@ -6,7 +6,7 @@ on:
 jobs:
   CodeQL-Build:
 
-    runs-on: dimerun-k3-ubuntu2204
+    runs-on: dimerunv2
 
     steps:
     - name: Checkout repository
